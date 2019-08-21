@@ -1,6 +1,6 @@
 {
   "name": "tcr-validator",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": false,
   "dependencies": {
     "react": "^16.9.0",
@@ -12,7 +12,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "publish:npm": "rm -rf dist && mkdir dist &&  babel ./src -d dist --copy-files"
+    "publish:npm": "rm -rf dist && mkdir dist &&  babel ./src -d ./ --copy-files"
   },
   "babel": {
     "presets": [
